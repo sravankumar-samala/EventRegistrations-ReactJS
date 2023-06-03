@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.status-image img {
+  max-width: 100%;
+}
+.status-image img[alt='registered'] {
+  width: 80px;
+  height: 80px;
+}
+.heading-closed-regs {
+  font-size: clamp(0.7rem, 2.5vw, 1.7rem);
+  font-weight: bold;
+}

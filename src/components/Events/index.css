@@ -1,0 +1,46 @@
+/* Write your CSS here */
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+.main-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.events {
+  background-color: #323f4b;
+  padding: min(10%, 1.5em);
+  color: #e3eaf1;
+  display: grid;
+  place-content: center;
+}
+
+.events-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: 1em;
+  place-items: center;
+  align-items: stretch;
+}
+
+.event-reg-details {
+  /* border: 1px solid black; */
+  align-self: start;
+  margin-top: 5vh;
+  padding: 2em;
+  text-align: center;
+  font-size: clamp(0.3rem, 2vw, 1.17rem);
+}
+.event-reg-details button {
+  padding: 0.5em 2em;
+  background-color: #3781f8;
+  color: white;
+  border-radius: 10px;
+  font-size: clamp(0.3rem, 2vw, 1.17rem);
+  margin-block: 1em;
+}
+.event-reg-details p {
+  color: #64748b;
+  font-weight: 500;
+}

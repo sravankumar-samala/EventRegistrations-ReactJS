@@ -1,0 +1,19 @@
+/* Write your CSS here */
+button {
+  border: none;
+  padding: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.event-item img {
+  max-width: 100%;
+}
+.name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.location {
+  color: #b3b6b9;
+  font-size: clamp(0.4rem, 3vw, 0.9rem);
+}
